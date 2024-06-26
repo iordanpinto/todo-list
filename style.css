@@ -1,0 +1,67 @@
+.container {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f8eecd;
+}
+
+
+#new-task-input {
+  border-radius: 5px;
+  background-color: white;
+  border: none;
+  padding: 5px;
+  width: 300px;
+}
+
+#addTask {
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+}
+
+#addTask:hover {
+  background-color: #000000;
+  color: white;
+  transition: 0.3s;
+}
+
+#taskList {
+  list-style: none;
+  padding: 0;
+}
+
+#taskList li {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.completed-button {
+  border-color: green;
+  border-radius: 20px;
+  align-content: center;
+}
+
+.completed-button:hover {
+  background-color: #28a745;
+  transition: 0.3s;
+}
+
+.delete-button {
+  border-color: #dc3545;
+  border-radius: 20px;
+  align-content: center;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+  transition: 0.3s;
+}
